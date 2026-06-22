@@ -33,6 +33,7 @@ niveis = [
     ["Fácil", 10, 3],
     ["Médio", 100, 5],
     ["Impossível", 1000, 10],
+    ["Extra", 10, 1],
 ]
 
 # --- Menu de escolha do nível ---
@@ -40,7 +41,8 @@ print("Escolha o nível de dificuldade:")
 print("1 - Fácil       (1 a 10, 3 chances)")
 print("2 - Médio       (1 a 100, 5 chances)")
 print("3 - Impossível  (1 a 1000, 10 chances)")
-opcao = int(input("Digite 1, 2 ou 3: "))
+print("4 - Extra       (1 a 10, 1 chances)")
+opcao = int(input("Digite 1, 2, 3 ou 4: "))
 
 # A opção 1 está na posição 0 da lista, por isso o ajuste
 nivel = niveis[opcao - 1]
@@ -51,3 +53,5 @@ venceu = jogar(nivel[1], nivel[2])
 
 if not venceu:
     print(" Fim de jogo! Tente um nível mais fácil. ")
+if venceu and opcao == 4:
+    print("Sao feras!")

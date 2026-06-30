@@ -1,7 +1,7 @@
 ## Data: 30/06/2026
 ## Jogo: Par ou Ímpar
 ## Disciplina: PCAP
-## Aluno: Benício Cordeiro
+## Aluno: Gustavo Heitor Ribeiro
 
 # Como jogar:
 

@@ -25,7 +25,7 @@ def jogar():
         aposta = input("Par ou Ímpar? ").strip().lower().replace("ímpar", "impar")
         if aposta in ["par", "impar"]:
             break
-        print(" Digite apenas 'par' ou 'ímpar'.")
+        print("digite apenas par ou impar")
         
     soma = jogador + maquina
     # Lógica de vitória simplificada em uma linha (Expressão Condicional)

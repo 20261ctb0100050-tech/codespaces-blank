@@ -1,0 +1,38 @@
+Entrada:
+1 - aposta = input("Par ou Ímpar? ").strip().lower().replace("ímpar", "impar") essa entrada de forma resumida aceita a palavra mesmo com pequenos erros ortograficos
+2 - jogador = int(input("Escolha um número (0-5): ")) pede para o jogador escolher um numero de 0 a 5       
+3 - 
+
+Variaveis:
+1 -aposta = input("Par ou Ímpar? ").strip().lower().replace("ímpar", "impar") a variavel "aposta" vai ser um valor defenido pelo input
+2 -maquina = random.randint(0, 5) armazena um número inteiro aleatório entre 0 e 5
+3 -jogador = armazena o número inteiro que o usuário digita no teclado
+
+Operadores:
+1 - resultado = "par" if soma % 2 == 0 else "impar"
+2 - 
+3 -
+
+Saida:
+1 -(line 21) print("digite apenas par ou impar") esse exemplo de saida funciona para informar que oque ela digitou esta fora das opçoes sugeridas 
+2 -print("====== INÍCIO DO JOGO: MELHOR DE 3 ======") Anuncia o começo do jogo e que são tres rodadas 
+3 -print(f" FIM DE JOGO! O grande vencedor foi: {campeao.upper()}!") Anuncia o fim de jogo e mostra o vencedor sendo jogador ou maquina
+
+Sub-rotinas
+1 -def jogar():
+    maquina = random.randint(0, 5)
+2 -def main():
+    placar = {"Jogador": 0, "Máquina": 0}
+3 -
+
+Repetição:
+1 -  não achei profe.berssa   
+2 -
+3 -
+
+Condição:
+1 - if aposta in ["par", "impar"] o if e a condição e ser tudo estiver de acordo com essa condição ele vai dar uma ordem
+2 - if soma % 2 == 0:
+        paridade = "par"
+3 -  else:
+        paridade = "impar"

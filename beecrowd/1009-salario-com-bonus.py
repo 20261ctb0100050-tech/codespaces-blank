@@ -1,4 +1,4 @@
-'''
+v'''
 Problema: beecrowd | 1009
 Data: 2026.04.10
 Estudante: Gustavo Ribeiro

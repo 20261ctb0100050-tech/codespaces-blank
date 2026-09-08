@@ -1,20 +1,20 @@
-# ==============================================================
-# ARQUIVO:     telas.py  
-# Disciplina: 2026-PCAP
-# Aula:        20 
-# Autor:       [Gustavo Ribeiro]
+# =======================================
+# Arquivo:      adivinhe.py
+# Disciplina:   2026-PCAP
+# Aula:         20
+# Autor     : Gustavo Ribeiro
 # Data:         2026.08.04
-# Conceitos  : <o que este arquivo usa>
-# ==============================================================
+# Conceitos:    Estruturas de repetição e números aleatórios
+# =======================================
 
-# importar bibliotecas e funçoes de arquivos (módulos)
-from random import randint 
+from random import randint
 from telas import titulo, linha
 from modulos import ler_numero
 
+
 def jogar_adivinhe():
-    titulo('JOGO ADIVINHE O NUMERO')
-    print('tente adivinhar o numero que estou pensando entre 1 e 10.')
+    titulo('JOGO ADIVINHE O NÚMERO')
+    print('Tente adivinhar o número que estou pensando entre 1 e 10.')
     segredo = randint(1, 10)
     tentativas = 0
     acertou = False
@@ -24,11 +24,12 @@ def jogar_adivinhe():
         tentativas += 1
 
         if palpite < segredo:
-            print('O numero secreto é maior. tente novamente.')
+            print('O número secreto é maior. Tente novamente.')
         elif palpite > segredo:
-            print("O numero secreto é menor. Tente novamente")
+            print('O número secreto é menor. Tente novamente.')
         else:
             acertou = True
-    else:
-        print(f"Parabéns! Você acertou o número secreto {segredo} em {tentativas}")
-        linha()
+
+    linha()
+    print(f'Parabéns! Você acertou o número secreto {segredo} em {tentativas} tentativas.')
+    linha()

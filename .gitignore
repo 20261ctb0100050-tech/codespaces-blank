@@ -1,0 +1,6 @@
+prog-c/*
+!prof-c/*.c
+fliperama-c/*
+!fliperama-c/*.c
+!fliperama-c/*.md
+!fliperama-c/*.csv

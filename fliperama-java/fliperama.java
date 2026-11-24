@@ -8,7 +8,8 @@
 *
 : O primeiro programa em Java: uma classe, o main e uma linha na tela, para provar que o ambiente funciona.
 */
-public class Fliperama {
-public static void main(String[] args) {
-System.out.println("Fliperama em Java: ambiente pronto.");
+public class fliperama {
+    public static void main(String[] args) {
+        System.out.println("Fliperama em Java: ambiente pronto.");
+    }
 }

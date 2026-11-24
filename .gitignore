@@ -4,3 +4,6 @@ fliperama-c/*
 !fliperama-c/*.c
 !fliperama-c/*.md
 !fliperama-c/*.csv
+prof-cpp/*
+!prog-cpp/*.cppfliperama-cpp/fliperama
+.class
